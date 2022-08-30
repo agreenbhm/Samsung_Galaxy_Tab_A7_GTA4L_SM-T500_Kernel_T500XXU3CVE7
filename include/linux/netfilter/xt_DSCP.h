@@ -12,6 +12,7 @@
 #define _XT_DSCP_H
 
 #include <linux/types.h>
+#include <uapi/linux/netfilter/xt_DSCP.h>
 
 #define XT_DSCP_MASK	0xfc	/* 11111100 */
 #define XT_DSCP_SHIFT	2
