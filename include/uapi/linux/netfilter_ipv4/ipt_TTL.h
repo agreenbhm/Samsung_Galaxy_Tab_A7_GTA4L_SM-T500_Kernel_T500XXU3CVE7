@@ -20,5 +20,10 @@ struct ipt_TTL_info {
 	__u8	ttl;
 };
 
+struct ipt_ttl_info {
+	__u8	mode;
+	__u8	ttl;
+};
+
 
 #endif

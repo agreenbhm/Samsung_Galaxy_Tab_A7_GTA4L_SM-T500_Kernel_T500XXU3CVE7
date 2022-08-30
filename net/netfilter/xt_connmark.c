@@ -25,7 +25,7 @@
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_ecache.h>
 #include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_connmark.h>
+#include <linux/netfilter/xt_CONNMARK.h>
 
 // ------------- START of KNOX_VPN ------------------//
 #include <linux/types.h>

@@ -12,7 +12,6 @@
 #define _XT_DSCP_H
 
 #include <linux/types.h>
-#include <uapi/linux/netfilter/xt_DSCP.h>
 
 #define XT_DSCP_MASK	0xfc	/* 11111100 */
 #define XT_DSCP_SHIFT	2
@@ -24,10 +23,19 @@ struct xt_dscp_info {
 	__u8 invert;
 };
 
+struct xt_DSCP_info {
+        __u8 dscp;
+};
+
 struct xt_tos_match_info {
 	__u8 tos_mask;
 	__u8 tos_value;
 	__u8 invert;
+};
+
+struct xt_tos_target_info {
+        __u8 tos_value;
+        __u8 tos_mask;
 };
 
 #endif /* _XT_DSCP_H */

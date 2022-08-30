@@ -11,7 +11,6 @@
 */
 #ifndef _XT_DSCP_TARGET_H
 #define _XT_DSCP_TARGET_H
-#include <linux/netfilter/xt_dscp.h>
 #include <linux/types.h>
 
 /* target info */
